@@ -1463,6 +1463,7 @@ a:hover {
 	margin-bottom: 30px;
 	margin-top: -4px;
 }
+
 .widget-caption {
 	color: #b7d3d2;
 	font-size: 16px;
@@ -1521,8 +1522,8 @@ a:hover {
 	height: 40px;
 	line-height: 44px;
 	text-align: center;
-	background-color: #0a5d5a;
 	color: #fff;
+	border-radius: 5px;
 }
 
 .social-links li a:hover {
@@ -1531,28 +1532,40 @@ a:hover {
 }
 
 .ft-links {
-	margin:10px 0px;
+	margin: 10px 0px;
 }
 
 .ft-links li {
 	color: #b7d3d2;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 23px;
 	font-weight: 500;
 	margin-bottom: 16px;
-	text-transform: uppercase;
 }
 
 .ft-links li:last-child {
 	margin-bottom: 0;
 }
 
-.widget-contact .ft-links li {
-	margin-bottom: 20px;
+.widget-company .ft-links li {
+	text-transform: uppercase;
 }
+
 .widget-contact .ft-links {
 	margin-top: 20px;
 }
+
+.widget-contact .ft-links li {
+	margin-bottom: 20px;
+}
+
+.widget-contact .ft-links li i {
+	float: left;
+	margin-right: 10px;
+	transform: translateY(30%);
+
+}
+
 /* BOTTOM FOOTER */
 
 .bottom-footer {
@@ -3518,6 +3531,7 @@ header.sticky .header-content {
 header.sticky a {
 	color: #000;
 }
+
 header.sticky .contact-head-info {
 	background-color: rgba(0, 0, 0, 0.40);
 }
