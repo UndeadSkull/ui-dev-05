@@ -35,9 +35,6 @@ input#amount,
 .play-btn,
 .sub-title:before,
 .team-head,
-.slick-prev:hover,
-.slick-next:hover,
-.slick-dots li.slick-active button,
 .category,
 .cart-number,
 .banner-slider .slick-prev:hover,
@@ -60,6 +57,12 @@ input:checked+.slider,
 .failed,
 .text-info {
 	background-color: #F2821E;
+}
+
+.slick-prev:hover,
+.slick-next:hover,
+.slick-dots li.slick-active button {
+	background-color: #005AAA;
 }
 
 footer {

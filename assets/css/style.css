@@ -228,10 +228,8 @@ header {
 
 header.header-bg {
 	position: static;
-	/* background-image: url(../images/pager-bg.jpg); */
-	background-image: url(https://source.unsplash.com/1920x200/?tree);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
 }
 
 header.header-bg nav>ul>li {
@@ -245,9 +243,6 @@ header.header-bg .header-content {
 /* NAVIGATION */
 
 nav {
-	/* padding-left: 148px; */
-	/* width: 62.75%; */
-	/* width: 80%; */
 	margin-left: auto;
 	margin-top: 2px;
 	text-align: center;
@@ -713,7 +708,7 @@ a:hover {
 
 .sub-title {
 	color: #070c1f;
-	font-size: 40px;
+	font-size: 32px;
 	font-weight: 700;
 	position: relative;
 	padding-left: 86px;
@@ -919,7 +914,7 @@ a:hover {
 }
 
 .product.more-btn>img {
-	filter: brightness(0.8);
+	filter: brightness(0.6);
 }
 
 .product.more-btn>a {
@@ -1054,7 +1049,9 @@ a:hover {
 	font-weight: 500;
 	margin-bottom: 88px;
 }
-
+.project-text>p>span {
+	font-weight: 700;
+}
 .project-item>img {
 	width: 100%;
 	display: block;
@@ -1093,7 +1090,6 @@ a:hover {
 }
 
 .project-info>h3 {
-	color: #fafafa;
 	font-size: 24px;
 	font-weight: 700;
 	margin-bottom: 3px;
@@ -1101,7 +1097,6 @@ a:hover {
 
 .project-info>span {
 	display: block;
-	color: #fafafa;
 	font-size: 15px;
 	font-weight: 500;
 }
@@ -1120,7 +1115,8 @@ a:hover {
 	height: 48px;
 	line-height: 48px;
 	text-align: center;
-	background-color: #dcdcdc;
+	background-color: transparent;
+	border: 2px solid #005AAA;
 }
 
 .slick-prev:hover:before,
@@ -1135,8 +1131,8 @@ a:hover {
 	top: 50%;
 	left: 50%;
 	font-weight: 900;
-	color: #0a0e21;
-	font-size: 16px;
+	color: #005AAA;
+	font-size: 20px;
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
@@ -1145,7 +1141,7 @@ a:hover {
 }
 
 .slick-prev:before {
-	content: '\f104';
+	content: '\f30a';
 }
 
 .project-carousel .slick-prev {
@@ -1153,7 +1149,7 @@ a:hover {
 }
 
 .slick-next:before {
-	content: '\f105';
+	content: '\f30b';
 }
 
 .project-carousel .slick-prev,
