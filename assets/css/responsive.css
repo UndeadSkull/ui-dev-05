@@ -103,8 +103,7 @@
 	.banner-slider {display: none;}
 	.banner-content {padding-top: 160px;}
 	.tree{max-width: 50%;}
-	.about-text {margin-top: 100px;}
-	.about-text {padding-left: 0;}
+	.about-text {margin-top: 100px;padding-left: 0;}
 	.block {padding: 110px 0;}
 	.about-us-section {margin-bottom: 0;}
 	.sub-title {font-size: 32px;}
@@ -188,6 +187,7 @@
 	.portfolio-details-info p {font-size: 16px;}
 	.pz-list li > span {font-size: 16px;}
 	.pz-list li h4 {font-size: 16px;}
+	.product-head > h3{max-width: 200px;}
 	.azt-img{padding-right: 0;}
 	.svs-img {max-width: 100%;}
 	.svss-info {max-width: 100%;}
@@ -219,7 +219,7 @@
 	.bottom-footer {text-align: center;}
 	.sub-title {font-size: 30px;}
 	.section-title .lnk-default2 {display: none;}
-	.project-text > p {font-size: 18px;line-height: 34px;margin-bottom: 35px;}
+	.project-text > p {font-size: 18px;line-height: 34px;margin-bottom: 35px;padding: 0 20px;}
 	.menu-btnn {margin-left: auto;}
 	.error-text > img {max-width: 60%;margin-bottom: 30px;}
 	.error-text > h2 {font-size: 28px;margin-bottom: 20px;}
@@ -258,6 +258,7 @@
 	.sub-title {font-size: 26px;line-height: 35px;}
 	.about-text > p {font-size: 14px;line-height: 25px;}
 	.lnk-default2 {font-size: 16px;}
+	.about-text {padding: 30px 15px 20px;margin-top: 0;}
 	.abt-txt {padding: 30px 15px 20px;}
 	.abt-txt > span:before {width: 85px;}
 	.play-btn {left: 120px;}
@@ -303,9 +304,10 @@
 	.portfolio-details-info > h2 {font-size: 25px;}
 	.pz-list li h4 {width: 100%;margin-bottom: 20px;}
 	.team-head {padding: 0 40px 50px;}
-	.product-head {padding: 0 40px 50px;}
-	.product-head > h3{left: 50px; padding-left: 50px;}
+	.product-head {padding: 0 10px;}
+	.product-head > h3{left: 50px; padding-left: 50px;bottom: 0;}
 	.product-head > h3::before{width: 40px;}
+	.product{padding: 0 10px;}
 	.svss-info {padding: 40px 20px;}
 	.pro-head > h2 {line-height: 30px;}
 	.pro-head strong {left: 60%;margin-left: 0;}

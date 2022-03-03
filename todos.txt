@@ -1,4 +1,9 @@
 Other pages style ✔️
 Other page logo ✔️
-Mobile Menu color
-Blog card border radius
+Mobile Menu color ✔️
+Blog card border radius ✔️
+button border radius ✔️ 
+Font size thinner
+Logo Change ✔️
+product image Change ✔️
+product buttons add ✔️

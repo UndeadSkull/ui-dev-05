@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="368" height="177" viewBox="0 0 368 177">
+  <defs>
+    <filter id="Rectangle_14" x="0" y="0" width="368" height="177" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_98" data-name="Group 98" transform="translate(-90.758 -24.792)">
+    <g transform="matrix(1, 0, 0, 1, 90.76, 24.79)" filter="url(#Rectangle_14)">
+      <rect id="Rectangle_14-2" data-name="Rectangle 14" width="338" height="147" rx="10" transform="translate(5 5)" fill="#f2821e"/>
+    </g>
+    <g id="Group_95" data-name="Group 95" transform="translate(93.169 10.363)">
+      <text id="Nurtured_With_Nature" data-name="Nurtured With
+Nature" transform="translate(47.589 81.429)" fill="#fff" font-size="36" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Nurtured With</tspan><tspan font-size="52"><tspan x="0" y="50">Nature</tspan></tspan></text>
+    </g>
+    <g id="Group_101" data-name="Group 101" transform="matrix(0.848, 0.53, -0.53, 0.848, 550.1, -1584.1)">
+      <path id="Path_166" data-name="Path 166" d="M1294.266,1582.225s-9.259-18.68,5.091-27.564,8.61-22.086,8.61-22.086,27.5,41.012-14.808,53.859c.374-.749,9.525-10.411,12.4-21.486C1302.24,1574.472,1294.266,1582.225,1294.266,1582.225Z" transform="translate(-566)" fill="#fff"/>
+      <path id="Path_167" data-name="Path 167" d="M1303,1558.355s4.807-9.7-2.643-14.312-4.471-11.468-4.471-11.468-14.278,21.294,7.689,27.965c-.194-.389-4.946-5.406-6.441-11.156A26.8,26.8,0,0,0,1303,1558.355Z" transform="translate(-582 12.947)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
